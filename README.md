@@ -13,6 +13,7 @@ Please follow the instruction below to install it and run the experiment demo.
 * Linux (tested on ubuntu 16.04LTS)
 * NVIDIA GPU + CUDA CuDNN (tested on 8x GTX 2080 Ti)
 * [COCO 2017 Dataset](http://cocodataset.org) (download and unzip)
+* Please use PyTorch1.1 + Apex(#1564802) to avoid compilation errors
 
 ### Getting started
 
@@ -26,7 +27,7 @@ Please follow the instruction below to install it and run the experiment demo.
 
     ```bash
     # git version must be greater than 1.9.10
-    git clone https://github.com/SalProp/SP.git -b review --single-branch ShapeProp
+    git clone https://github.com/ucbdrive/ShapeProp.git
     cd ShapeProp
     export DIR=$(pwd)
     ```
